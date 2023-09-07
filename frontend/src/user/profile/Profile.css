@@ -1,0 +1,30 @@
+.profile-card {
+    max-width: 35%;
+    margin: auto;
+    text-align: center;
+    background-color: rgba(42, 0, 110, 0.2);
+    color: #2a006e;
+}
+
+
+#profile-edit-button {
+    background:  #2a006e;
+    border-color: #2a006e;
+}
+
+#profile-edit-button:hover {
+    background-color: white;
+    color:  #2a006e;
+}
+
+#profile-delete-button {
+    background: #ff0055;
+    color: white;
+}
+
+#profile-delete-button:hover {
+    background-color: white;
+    color:  #ff0055;
+}
+
+

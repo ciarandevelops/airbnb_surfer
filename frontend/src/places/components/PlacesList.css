@@ -1,0 +1,55 @@
+.place-list {
+  margin: auto;
+  padding: 0;
+  width: 100%;
+  max-width: 40rem;
+}
+
+.place-item-list-card {
+  background: #2a006e;
+}
+
+select {
+  font-size: 20px;
+}
+
+.search-button {
+  background-color:  #ff0055;
+  color: #fff; 
+  border: 2px solid  #ff0055;/* Border color */
+  padding: 10px 20px; /* Adjust padding as needed */
+  border-radius: 5px; /* Add rounded corners */
+  cursor: pointer; /* Show a pointer cursor on hover */
+  font-size: 16px; /* Set font size */
+  margin-bottom: 50px;
+}
+
+/* Hover effect for the button */
+.search-button:hover {
+  background-color: transparent; /* Change background color on hover */
+  color:  #ff0055; /* Change text color on hover */
+}
+
+/* Active (clicked) state for the button */
+.search-button:active {
+  background-color: #ff0055;/* Change background color when clicked */
+  color: #fff; /* Change text color when clicked */
+}
+
+.alert-container {
+  position: absolute;
+  z-index: 9999;
+  display: flex;
+}
+.custom-select {
+  appearance: none; 
+  padding: 10px 20px; 
+  border: 1px solid #ccc;
+  border-radius: 5px; 
+  background-color: white;
+
+  color: #333;
+  width: 30%; 
+  cursor: pointer; 
+  outline: none; 
+}

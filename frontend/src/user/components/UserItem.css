@@ -1,0 +1,19 @@
+.profile-card {
+  max-width: 35%;
+  margin: auto;
+  text-align: center;
+}
+
+.profile-edit-button{
+  display: inline;
+  max-width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+.profile-delete-button {
+  display: inline;
+  max-width: 50%;
+  margin: auto;
+  text-align: center;
+}
